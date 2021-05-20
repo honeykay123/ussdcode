@@ -106,6 +106,18 @@ if (ussd == "*123#") {
                         }
                     }
                 } 
-            } 
-        
+            }        
+if(cable == 4){
+    var utilis= prompt("Enter your smart card Number");
+    if(utilis.length = 10 ){
+        var cate = prompt("enter your smart card pin PIN");
+        if(cate.length = 4 ){
+            var cates = Number (prompt("Enter Amount"));
+            if(cates <= 100000){
+                alert("Transaction successful your Balance is " + " " + " " + (initialBalance - cates));
+            }
+        }
+    }
+    
+}        
 
